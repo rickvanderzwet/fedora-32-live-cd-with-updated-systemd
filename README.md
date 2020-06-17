@@ -11,6 +11,9 @@ $ sudo livecd-creator --verbose --config=fedora-live-workstation.ks \
     --fslabel=Fedora-LiveCD --cache=/var/cache/live
 ```
 
+ISO  created at 17 Juni 2020 (amd64): Found here: 
+  - https://rickvanderzwet.nl/trunkplaza/Fedora32-LiveCD-with-updated-systemd.iso
+
 # DEV: Quirck to select required kickstart files
 ``` bash
 $ (cd spin-kickstarts; ../search-ks-includes.sh fedora-live-workstation.ks)
